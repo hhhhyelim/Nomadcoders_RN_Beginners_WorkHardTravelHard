@@ -114,7 +114,7 @@ export default function App() {
           onSubmitEditing={addToDo}
           onChangeText={onChangeText}
           value={text}
-          placeholder={working? "Add a To Do": "Where do you want to go?"}
+          placeholder={working? "Add a To Do": "Where do you want to go??"}
           style={styles.input} />
           <ScrollView>{Object.keys(toDos).map(key => 
             toDos[key].working === working? <View style= {styles.toDo} key={key}>
